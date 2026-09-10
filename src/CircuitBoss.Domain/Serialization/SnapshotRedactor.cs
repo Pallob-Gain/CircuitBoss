@@ -30,11 +30,20 @@ public sealed class SnapshotRedactor
 
     private static string? RedactPath(string? sourceReference)
     {
-        if (string.IsNullOrWhiteSpace(sourceReference) || !Path.IsPathRooted(sourceReference))
+        if (string.IsNullOrWhiteSpace(sourceReference) || !IsAbsolutePath(sourceReference))
         {
             return sourceReference;
         }
 
-        return Path.GetFileName(sourceReference);
+        return Path.GetFileName(sourceReference.Replace('\\', Path.DirectorySeparatorChar));
+    }
+
+    private static bool IsAbsolutePath(string path)
+    {
+        return Path.IsPathRooted(path)
+            || (path.Length >= 3
+                && char.IsLetter(path[0])
+                && path[1] == ':'
+                && (path[2] == '\\' || path[2] == '/'));
     }
 }

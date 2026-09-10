@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CircuitBoss.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a96cbc824a6d5470138513f2aac7e2c3df613b89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bb23b55f342947c053288b390b5115fb9edf314")]
 [assembly: System.Reflection.AssemblyProductAttribute("CircuitBoss.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CircuitBoss.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
