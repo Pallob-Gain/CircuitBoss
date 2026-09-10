@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CircuitBoss.AltiumAdapter/CircuitBoss.AltiumAdapter.csproj" />
+    <Project Path="src/CircuitBoss.Domain/CircuitBoss.Domain.csproj" />
+    <Project Path="src/CircuitBoss.Extension/CircuitBoss.Extension.csproj" />
+    <Project Path="src/CircuitBoss.Review/CircuitBoss.Review.csproj" />
+    <Project Path="src/CircuitBoss.Security/CircuitBoss.Security.csproj" />
+    <Project Path="src/CircuitBoss.UI/CircuitBoss.UI.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CircuitBoss.Domain.Tests/CircuitBoss.Domain.Tests.csproj" />
+    <Project Path="tests/CircuitBoss.Rules.Tests/CircuitBoss.Rules.Tests.csproj" />
+  </Folder>
+</Solution>

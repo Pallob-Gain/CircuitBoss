@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CircuitBoss.Domain\CircuitBoss.Domain.csproj" />
+    <ProjectReference Include="..\CircuitBoss.Review\CircuitBoss.Review.csproj" />
+    <ProjectReference Include="..\CircuitBoss.Security\CircuitBoss.Security.csproj" />
+    <ProjectReference Include="..\CircuitBoss.AltiumAdapter\CircuitBoss.AltiumAdapter.csproj" />
+    <ProjectReference Include="..\CircuitBoss.UI\CircuitBoss.UI.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
