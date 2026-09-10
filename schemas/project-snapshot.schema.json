@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://circuitboss.local/schemas/project-snapshot.schema.json",
+  "title": "CircuitBoss Project Snapshot",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "project",
+    "documents",
+    "components",
+    "pins",
+    "nets",
+    "connections",
+    "power_objects",
+    "directives",
+    "parameters",
+    "erc_messages"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "project": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "type": ["string", "null"] },
+        "type": { "type": "string", "enum": ["pcb_project"] }
+      }
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "kind"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "type": "string", "minLength": 1 },
+          "kind": { "type": "string", "minLength": 1 },
+          "source_reference": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "components": { "type": "array" },
+    "pins": { "type": "array" },
+    "nets": { "type": "array" },
+    "connections": { "type": "array" },
+    "power_objects": { "type": "array", "items": { "type": "string" } },
+    "directives": { "type": "array", "items": { "type": "string" } },
+    "parameters": { "type": "array" },
+    "erc_messages": { "type": "array" }
+  }
+}

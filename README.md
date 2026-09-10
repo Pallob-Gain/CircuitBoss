@@ -591,3 +591,37 @@ The MVP is complete when:
 - Review baselines and pull-request/CI integration
 - Team comments and Altium 365 integration
 - Controlled, user-approved schematic fix proposals
+
+## 23. Current Repository Status
+
+The repository now contains a buildable .NET solution that implements the Milestone 0 architectural shell described above:
+
+- Solution and source layout for Domain, Review, Security, AltiumAdapter, UI, and Extension layers
+- A normalized project snapshot domain model and starter JSON schemas
+- A deterministic rule-engine shell with an initial single-pin-net rule and tests
+- A stub Altium adapter and extension host that preserve the toolbar, context-menu, and dockable-panel boundaries without assuming undocumented SDK APIs
+- Privacy-oriented redaction helpers for project snapshots
+
+This is not yet a production-loadable Altium extension because the required Altium SDK, panel registration APIs, package format, and signing workflow still need to be confirmed.
+
+## 24. Build and Test
+
+### Prerequisites
+
+- .NET SDK 10.0 or later
+
+### Commands
+
+```bash
+dotnet build /home/runner/work/CircuitBoss/CircuitBoss/CircuitBoss.slnx
+dotnet test /home/runner/work/CircuitBoss/CircuitBoss/CircuitBoss.slnx
+```
+
+## 25. Remaining SDK Uncertainties
+
+Before wiring the shell into a real Altium extension, confirm:
+
+- the supported compiled-extension SDK and target Altium Designer versions
+- the correct APIs for toolbar commands, project context-menu commands, and dockable panels
+- packaging, signing, update, and extension-store submission requirements
+- the supported APIs for project compilation/ERC access and object navigation
