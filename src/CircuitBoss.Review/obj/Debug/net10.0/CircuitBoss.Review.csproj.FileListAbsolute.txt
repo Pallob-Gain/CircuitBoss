@@ -1,0 +1,15 @@
+/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/bin/Debug/net10.0/CircuitBoss.Review.deps.json
+/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/bin/Debug/net10.0/CircuitBoss.Review.dll
+/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/bin/Debug/net10.0/CircuitBoss.Review.pdb
+/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/bin/Debug/net10.0/CircuitBoss.Domain.dll
+/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/bin/Debug/net10.0/CircuitBoss.Domain.pdb
+/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/obj/Debug/net10.0/CircuitBoss.Review.csproj.AssemblyReference.cache
+/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/obj/Debug/net10.0/CircuitBoss.Review.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/obj/Debug/net10.0/CircuitBoss.Review.AssemblyInfoInputs.cache
+/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/obj/Debug/net10.0/CircuitBoss.Review.AssemblyInfo.cs
+/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/obj/Debug/net10.0/CircuitBoss.Review.csproj.CoreCompileInputs.cache
+/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/obj/Debug/net10.0/CircuitB.A16A8A43.Up2Date
+/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/obj/Debug/net10.0/CircuitBoss.Review.dll
+/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/obj/Debug/net10.0/refint/CircuitBoss.Review.dll
+/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/obj/Debug/net10.0/CircuitBoss.Review.pdb
+/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/obj/Debug/net10.0/ref/CircuitBoss.Review.dll

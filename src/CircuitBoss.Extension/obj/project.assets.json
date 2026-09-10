@@ -1,11 +1,106 @@
 {
   "version": 4,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "CircuitBoss.AltiumAdapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "CircuitBoss.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CircuitBoss.AltiumAdapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CircuitBoss.AltiumAdapter.dll": {}
+        }
+      },
+      "CircuitBoss.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/CircuitBoss.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CircuitBoss.Domain.dll": {}
+        }
+      },
+      "CircuitBoss.Review/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "CircuitBoss.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CircuitBoss.Review.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CircuitBoss.Review.dll": {}
+        }
+      },
+      "CircuitBoss.Security/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "CircuitBoss.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CircuitBoss.Security.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CircuitBoss.Security.dll": {}
+        }
+      },
+      "CircuitBoss.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "CircuitBoss.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CircuitBoss.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CircuitBoss.UI.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CircuitBoss.AltiumAdapter/1.0.0": {
+      "type": "project",
+      "path": "../CircuitBoss.AltiumAdapter/CircuitBoss.AltiumAdapter.csproj",
+      "msbuildProject": "../CircuitBoss.AltiumAdapter/CircuitBoss.AltiumAdapter.csproj"
+    },
+    "CircuitBoss.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CircuitBoss.Domain/CircuitBoss.Domain.csproj",
+      "msbuildProject": "../CircuitBoss.Domain/CircuitBoss.Domain.csproj"
+    },
+    "CircuitBoss.Review/1.0.0": {
+      "type": "project",
+      "path": "../CircuitBoss.Review/CircuitBoss.Review.csproj",
+      "msbuildProject": "../CircuitBoss.Review/CircuitBoss.Review.csproj"
+    },
+    "CircuitBoss.Security/1.0.0": {
+      "type": "project",
+      "path": "../CircuitBoss.Security/CircuitBoss.Security.csproj",
+      "msbuildProject": "../CircuitBoss.Security/CircuitBoss.Security.csproj"
+    },
+    "CircuitBoss.UI/1.0.0": {
+      "type": "project",
+      "path": "../CircuitBoss.UI/CircuitBoss.UI.csproj",
+      "msbuildProject": "../CircuitBoss.UI/CircuitBoss.UI.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "CircuitBoss.AltiumAdapter >= 1.0.0",
+      "CircuitBoss.Domain >= 1.0.0",
+      "CircuitBoss.Review >= 1.0.0",
+      "CircuitBoss.Security >= 1.0.0",
+      "CircuitBoss.UI >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/runner/.nuget/packages/": {}
@@ -32,7 +127,23 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.AltiumAdapter/CircuitBoss.AltiumAdapter.csproj": {
+              "projectPath": "/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.AltiumAdapter/CircuitBoss.AltiumAdapter.csproj"
+            },
+            "/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Domain/CircuitBoss.Domain.csproj": {
+              "projectPath": "/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Domain/CircuitBoss.Domain.csproj"
+            },
+            "/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/CircuitBoss.Review.csproj": {
+              "projectPath": "/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Review/CircuitBoss.Review.csproj"
+            },
+            "/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Security/CircuitBoss.Security.csproj": {
+              "projectPath": "/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.Security/CircuitBoss.Security.csproj"
+            },
+            "/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.UI/CircuitBoss.UI.csproj": {
+              "projectPath": "/home/runner/work/CircuitBoss/CircuitBoss/src/CircuitBoss.UI/CircuitBoss.UI.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
