@@ -1,0 +1,9 @@
+.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+*.log
+**/bin/
+**/obj/
+TestResults/
